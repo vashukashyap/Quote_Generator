@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="icon" type="images/png" href="https://img.icons8.com/stickers/100/quotation-mark-key.png"/>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="quote-box">
+      <h2>Quotes of the day</h2>
+      <blockquote id="quote">Loading....</blockquote>
+      <span id="author">Loading...</span>
+      <div>
+        <button onclick="getQuote(api_url)">New Quote</button>
+        <button onclick="shareQuote()">
+          <img src="images/icons8-share.svg" alt="share" />
+          Share
+        </button>
+      </div>
+    </div>
+    <div id="toastMssg" class="toast">
+      <div>Copied</div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
