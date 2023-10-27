@@ -112,7 +112,7 @@ body{
     width: 100%;
     padding: 1rem;
     bottom: 0;
-    display: non;
+    display: none;
     justify-content: center;
     color: #333 ;
     border-top: #333 solid 1px;
